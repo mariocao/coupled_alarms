@@ -1,10 +1,12 @@
 # Coupled Alarms
 
-This component keeps all defined `alarm_control_panel`s in sync of their states.
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+
+This component keeps all defined `alarm_control_panel`s in sync with their states:
 
 * If you disarm one alarm in the group – others will disarm as well.
 * If you trigger one alarm in the group – others will trigger as well.
-* Et cetera...
+* Etcetera...
 
 ## Installation
 
@@ -88,3 +90,8 @@ coupled_alarms:
 
 You simply use `alarm_control_panel.alarm` (finetuned) everywhere.
 `alarm_control_panel.miio_gateway` will be synchronized automatically.
+
+
+## Acknowledgement
+
+This repository is forked from the [repository](https://github.com/cadavre/coupled_alarms) written by @cadavre. It only adds the support of being installed as a HACS integration.

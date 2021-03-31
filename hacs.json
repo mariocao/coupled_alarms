@@ -1,0 +1,6 @@
+{
+    "name": "Coupled Alarms",
+    "render_readme": true,
+    "content_in_root": true,
+    "domains": ["alarm_control_panel"]
+}
