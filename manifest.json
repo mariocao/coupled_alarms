@@ -1,0 +1,10 @@
+{
+    "domain": "coupled_alarms",
+    "name": "Coupled Alarms",
+    "version": "0.1.0",
+    "documentation": "https://github.com/mariocao/coupled_alarms",
+    "issue_tracker": "https://github.com/mariocao/coupled_alarms/issues",
+    "codeowners": [
+      "@cadavre", "mariocao"
+    ]
+  }
